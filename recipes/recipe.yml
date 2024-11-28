@@ -22,7 +22,7 @@ modules:
       # - micro
       # - starship
       - gcc
-      - gcc-gfortan
+      - gcc-gfortran
       - gcc-gnat
       - libvirt
       - qemu
