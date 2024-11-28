@@ -21,8 +21,8 @@ modules:
     install:
       # - micro
       # - starship
-      - neovim
       - gcc
+      - gfortan
       - gcc-gnat
       - libvirt
       - qemu
