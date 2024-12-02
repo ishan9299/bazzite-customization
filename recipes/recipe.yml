@@ -22,8 +22,8 @@ modules:
       # - micro
       # - starship
       - gcc
-      - gcc-gfortran
-      - gcc-gnat
+      - clang
+      - foot
       - libvirt
       - qemu
       - virt-manager
