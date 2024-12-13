@@ -27,7 +27,6 @@ modules:
       - intel-one-mono-fonts
       - cascadia-code-fonts
       - jetbrains-mono-fonts
-      - SDL2
     remove: []
 
   - type: default-flatpaks
