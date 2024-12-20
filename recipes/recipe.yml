@@ -16,9 +16,14 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: rpm-ostree
+    repos:
+      - https://packages.microsoft.com/yumrepos/vscode
+    keys:
+      - https://packages.microsoft.com/keys/microsoft.asc
     install:
       - gcc
       - clang
+      - code
       - foot
       - libvirt
       - qemu
