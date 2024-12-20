@@ -27,6 +27,7 @@ modules:
       - intel-one-mono-fonts
       - cascadia-code-fonts
       - jetbrains-mono-fonts
+      - hyprland
     remove: []
 
   - type: default-flatpaks
@@ -40,4 +41,3 @@ modules:
         - org.mozilla.firefox
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
